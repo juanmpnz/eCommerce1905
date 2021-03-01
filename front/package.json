@@ -1,0 +1,43 @@
+{
+  "name": "ecommerce-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmpnz/eCommerce1905.git"
+  },
+  "author": "1905",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "axios": "^0.21.0",
+    "carousel": "0.0.3",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "postcss-loader": "^4.0.4",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-material-ui-carousel": "^2.1.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/icons": "^4.9.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}

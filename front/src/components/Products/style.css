@@ -1,0 +1,40 @@
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid 2px whitesmoke;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 1px solid gray;
+}
+.title {
+  width: 75%;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #012574;
+  margin: 0;
+}
+.subtitle {
+  font-weight: 300;
+}
+
+.products {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

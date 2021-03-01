@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid 2px whitesmoke;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 1px solid gray;
+}
+.title {
+  width: 75%;
+  text-transform: capitalize;
+  color: #012574;
+}
+
+.users {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid 2px whitesmoke;
+}
+
+/* User container */
+.user {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.odd {
+  background-color: white;
+}
+.pair {
+  background-color: whitesmoke;
+}
+.new {
+  background-color: rgb(208, 221, 203);
+}
+
+/* Empty */
+.empty {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 200px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: gray;
+  text-align: center;
+}
+.empty > h3 {
+  margin: 5px auto;
+}
+.empty > p {
+  margin: 5px auto;
+}
+
+/* Form */
+.form {
+  width: 90%;
+  height: 100%;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.updated {
+  background-color: rgb(249, 195, 18, 0.25);
+}
+
+/* Form sections */
+.form > input {
+  width: 16%;
+  margin: auto 0.5%;
+  padding: 5px 10px;
+  background: rgb(255, 255, 255, 0.75);
+  border: none;
+  border-bottom: solid 1px gray;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  color: grey;
+}
+::placeholder {
+  color: gray;
+}
+.access {
+  width: 13%;
+  margin: auto 1%;
+  padding: 5px 5px;
+  background: rgb(255, 255, 255, 0.75);
+  border: none;
+  border-bottom: solid 1px gray;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  color: grey;
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 10%;
+  min-width: 80px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  min-width: 40px;
+}
+.create {
+  background-color: rgb(26, 102, 46, 0.5);
+}
+.update {
+  background-color: rgb(249, 195, 18, 0.5);
+}
+.delete {
+  background-color: rgb(220, 20, 60, 0.5);
+}

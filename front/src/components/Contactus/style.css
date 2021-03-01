@@ -1,0 +1,37 @@
+.container {
+  width: 70%;
+  margin:auto;
+  display: flex;
+  justify-content:space-between;
+
+}
+.cardOne {
+  width: 75%;
+  height: 350px;
+  padding:25px;
+}
+
+.cardTwo {
+/*   width: 50%; */
+  height: 350px;
+  padding:25px;
+}
+.items{
+  box-sizing: border-box;
+  width:100%;
+  height:80px;
+  padding: 32px 32px 32px 32px   ;
+  margin: 0px 0px 0px 60px; 
+  color: #012574;
+ 
+ 
+}
+span.dato {
+  color:#F9C312;
+}
+
+p.parrafo{
+  display: inline;
+  margin: 0px 0px 0px 40px; 
+}
+

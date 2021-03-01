@@ -1,0 +1,28 @@
+.container{
+  position: absolute;
+  background: white;
+    height: 100vh; /* For 100% screen height */
+    width:  100%; /* For 100% screen width */
+    margin:100px auto;
+    z-index: 1;
+}
+.preloader {
+  width: 70px;
+  height: 70px;
+  margin: 50px auto;
+  border: 10px solid #eee;
+  border-top: 10px solid #666;
+  border-radius: 50%;
+  animation-name: girar;
+  animation-duration: 2s;
+  animation: girar 1s infinite;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid 2px whitesmoke;
+}
+
+.orders {
+  width: 100%;
+}
+
+.cartsContainer {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid 2px whitesmoke;
+}
+/* Header */
+.header {
+  width: 100%;
+  text-decoration: none;
+  border-bottom: 1px solid gray;
+  text-transform: capitalize;
+  color: #012574;
+}
+.subtitle {
+  font-weight: 300;
+}
+/* Order container */
+.singleCart {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.odd {
+  background-color: white;
+}
+.pair {
+  background-color: whitesmoke;
+}
+.singleCart > div {
+  min-width: 100px;
+  padding: 0 10px;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+
+/* Empty cart */
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+.empty > img {
+  max-height: 200px;
+}
+.empty > h3 {
+  margin: 5px auto;
+}
+.empty > p {
+  margin: 5px auto;
+}
+
+/* Buttons */
+.icon {
+  border: none;
+  background-color: none;
+  height: 100%;
+  min-width: 40px;
+  outline: none;
+}
+.icon:hover {
+  background-color: rgb(249, 195, 18, 0.5);
+}
+
+/* Form */
+.form {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.updated {
+  background-color: rgb(249, 195, 18, 0.25);
+}
+
+/* Form sections */
+.section {
+  width: 14%;
+  margin: 0px 1%;
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+}
+.product {
+  width: 58%;
+  font-size: 1em;
+  font-weight: 700;
+  color: black;
+}
+.units {
+  border-bottom: solid 1px gray;
+}
+.subtotal {
+  text-align: right;
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Order container */
+.order {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.odd {
+  background-color: white;
+}
+.pair {
+  background-color: whitesmoke;
+}
+
+/* Empty cart */
+.empty {
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+.empty > img {
+  max-height: 200px;
+}
+.empty > h3 {
+  margin: 5px auto;
+}
+.empty > p {
+  margin: 5px auto;
+}
+
+/* Form */
+.form {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.updated {
+  background-color: rgb(249, 195, 18, 0.25);
+}
+
+/* Form sections */
+.section {
+  width: 14%;
+  margin: 0px 1%;
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+}
+.product {
+  width: 58%;
+  font-size: 1em;
+  font-weight: 700;
+  color: black;
+}
+.units {
+  border-bottom: solid 1px gray;
+}
+.subtotal {
+  text-align: right;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 10%;
+  min-width: 80px;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  min-width: 40px;
+}
+.update {
+  background-color: rgb(249, 195, 18, 0.5);
+}
+.delete {
+  background-color: rgb(220, 20, 60, 0.5);
+}

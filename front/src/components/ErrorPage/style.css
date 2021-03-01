@@ -1,0 +1,12 @@
+.container {
+  width: 80%;
+  height: 480px;
+  padding: 60px 0px 0px 0px;
+  margin: auto;
+  color: gray;
+}
+
+.error{
+  text-align: center;
+  text-decoration: none;
+}

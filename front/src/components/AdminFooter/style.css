@@ -1,0 +1,19 @@
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 90px;
+  margin-top: 75px;
+  box-shadow: 0px 5px 10px 0px;
+  background-color: rgb(244, 245, 245);
+}
+.footer img {
+  padding: 0 5%;
+  max-width: 150px;
+}
+.footerName {
+  color: rgb(249, 195, 18);
+  padding: 0 5%;
+  font-weight: 500;
+}
